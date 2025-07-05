@@ -4,8 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-server-status',
   imports: [],
   templateUrl: './server-status.component.html',
-  styleUrl: './server-status.component.css'
+  styleUrl: './server-status.component.css',
+  standalone: true
 })
 export class ServerStatusComponent {
-
+  currentStatus = 'online';
 }
